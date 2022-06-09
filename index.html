@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    
+    <title>Calculator</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+
+<body class = "bood dark">
+    <div class = "calculator dark">
+        <div class = "theme-toggler active">
+            <i class = "toggler-icon"></i>
+        </div>
+        <div class = "output dark">
+            <div data-previous-operand class = "previous-operand dark"></div>
+            <div data-current-operand class = "current-operand dark">0</div>
+        </div>
+
+        <button class = "btn2 dark" data-sqrt>&radic;x</button>
+        <button class = "btn2 dark" data-operation>x<sup>y</sup></button>
+        <button class = "btn2 dark" data-sc>sin</button>
+        <button class = "btn2 dark" data-sc>cos</button>
+        <button class = "btn2 dark" data-sc>tan</button>
+
+        <button class = "btn2 dark" data-sc>log</button>
+        <button data-all-clear class = "btn1 dark">AC</button>
+        <button data-delete class = "btn1 dark"><img src = "images/del.png" alt = "DEL" height = 30></button>
+        <button data-operation class = "btn1 dark">%</button>
+        <button data-operation class = "btn1 dark">÷</button>
+
+        <button data-sc class = "btn2 dark">ln</button>
+        <button data-number class = "btn2 dark">7</button>
+        <button data-number class = "btn2 dark">8</button>
+        <button data-number class = "btn2 dark">9</button>
+        <button data-operation class = "btn1 dark">*</button>
+
+        <button data-sc class = "btn2 dark">1/x</button>
+        <button data-number class = "btn2 dark">4</button>
+        <button data-number class = "btn2 dark">5</button>
+        <button data-number class = "btn2 dark">6</button>
+        <button data-operation class = "btn1 dark">+</button>
+
+        <button data-const class="btn2 dark">&pi;</button>
+        <button data-number class="btn2 dark">1</button>
+        <button data-number class="btn2 dark">2</button>
+        <button data-number class="btn2 dark">3</button>
+        <button data-operation class="btn1 dark">-</button>
+
+        <button data-const class="btn2 dark">e</button>
+        <button data-number class="btn2 dark">.</button>
+        <button data-number class="btn2 dark">0</button>
+        <button data-equals id = "span-two"  class="btn1 dark">=</button>
+    </div>
+</body>
+<script src="main.js" defer></script>
+<script src = "mode.js" defer></script>
+</html>
